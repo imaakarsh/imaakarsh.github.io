@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <script>
+    (function () {
+      var t = localStorage.getItem('theme') ||
+        (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-theme', t);
+    })();
+  </script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="assets/favicon.jpg" type="image/x-icon">
+  <title>Aakarsh - Full Stack Developer</title>
+</head>
+
+<body>
+  <script src="theme.js"></script>
+  <!--NAVBAR-->
+  <nav class="navbar">
+    <div class="nav-container">
+
+      <a href="index.html" class="logo">Aakarsh.dev</a>
+
+      
+      <button class="menu-toggle" id="menu-toggle" aria-label="Open navigation menu" aria-expanded="false">
+        ☰
+      </button>
+
+      
+      <div class="nav-right">
+        <ul class="nav-links" id="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="project.html">Projects</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">🌙</button>
+      </div>
+
+    </div>
+  </nav>
+
+  
+  <div class="mobile-overlay" id="mobile-overlay" role="dialog" aria-modal="true" aria-label="Navigation menu">
+
+    
+    <div class="mobile-menu-card" id="mobile-menu-card">
+
+      <!-- Close button -->
+      <button class="mobile-close" id="mobile-close" aria-label="Close navigation menu">✕</button>
+
+      <!-- Circular profile image -->
+      <div class="mobile-profile">
+        <img src="assets/favicon.jpg" alt="Aakarsh profile photo">
+      </div>
+
+      <!-- Nav links  -->
+      <ul class="mobile-nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="project.html">Projects</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+
+    </div>
+  </div>
+
+  <!-- HERO SECTION -->
+  <section id="home" class="home">
+    <div class="home-container">
+
+      <div class="home-text">
+        <h1>Hi, I'm <span>Aakarsh</span></h1>
+        <p>
+          A passionate Full Stack Developer. I create dynamic and responsive web
+          applications and love building modern user experiences.
+        </p>
+      </div>
+
+      <div class="home-img">
+        <img src="assets/favicon.jpg" alt="Profile photo of Aakarsh">
+      </div>
+
+    </div>
+  </section>
+
+  <!--FOOTER-->
+  <footer>
+    <h6>© 2026 Created with ❤️ by Aakarsh.</h6>
+  </footer>
+
+
+
+</body>
+
+</html>
