@@ -1,30 +1,18 @@
-﻿# Aakarsh's Portfolio 🚀
+# Aakarsh's Portfolio 🚀
 
-A modern, responsive portfolio website showcasing my work as a Full Stack Developer.
+A modern, responsive portfolio website showcasing my work as a Full Stack Developer. Built with HTML5, CSS3, and JavaScript, and deployed on Vercel.
 
-## 🌐 Portfolio Link
+## 🌐 Live Site
 
-Visit the live site: [aakarshdev](https://aakarshdev.me/)
+[View my portfolio](https://aakarshdev.me/)
 
-## 📋 About
+## 🛠️ Technologies
 
-This is my personal portfolio website built with HTML and CSS. It features a clean, modern design with a focus on user experience and responsive layout.
+- **Frontend**: HTML5, CSS3, JavaScript
+- **Deployment**: Vercel
+- **Assets**: Icons and images in the `assets/` directory
 
-## ✨ Features
-
-- **Responsive Design** - Works seamlessly across all devices
-- **Modern UI** - Clean and professional interface
-- **Social Links** - Direct links to my social media profiles
-- **Easy Navigation** - Smooth navigation between sections
-
-## 🛠️ Technologies Used
-
-- HTML5
-- CSS3
-- JavaScript
-- Vercel (Deployment)
-
-## 📂 Project Structure
+## 📂 Structure
 
 ```
 MainPF/
@@ -33,44 +21,39 @@ MainPF/
 ├ project.html    # Projects showcase
 ├ skill.html      # Skills section
 ├ contact.html    # Contact page
-├ style.css       # Styling and layout
-├ theme.js        # Theme and interactions
-├ assets/         # Images and icons
-│   ├ favicon.jpg
-│   ├ instagram.png
-│   ├ linkedin.png
-│   ├ social.png
-│   ├ spotify.png
-│   └ image.png
+├ style.css       # Global styling
+├ theme.js        # Theme logic and interactivity
+├ assets/         # Images, icons, and media
 └ README.md       # Project documentation
 ```
 
-## 🎨 Sections
+## ✨ Key Features
 
-- **Home** - Introduction and welcome section
-- **About** - Information about me
-- **Projects** - Showcase of my work
-- **Skills** - Technical skills and expertise
-- **Contact** - Get in touch with me
+- **Responsive Design**: Optimized for all screen sizes and devices
+- **Smooth Navigation**: Single-page scrolling and multi-page linking
+- **Social Integration**: Direct links to professional and personal profiles
+- **Interactive Theme**: JavaScript-powered theme customization
 
-## 🔗 Connect With Me
+## 🔗 Connect
 
-- **GitHub**: [@imaakarsh](https://github.com/imaakarsh)
-- **LinkedIn**: [aakarshraj07](https://www.linkedin.com/in/aakarshraj07/)
-- **Instagram**: [@aakarsh.wtf](https://www.instagram.com/aakarsh.wtf/)
-- **Spotify**: [My Profile](https://open.spotify.com/user/31bmyhvubvmkjqnd6jclf6x4ix4q?si=33029016ddf74bd8)
+- [GitHub](https://github.com/imaakarsh)
+- [LinkedIn](https://www.linkedin.com/in/aakarshraj07/)
+- [Instagram](https://www.instagram.com/aakarsh.wtf/)
+- [Spotify](https://open.spotify.com/user/31bmyhvubvmkjqnd6jclf6x4ix4q)
 
-## 🚀 Getting Started
+## 🚀 Local Setup
 
 1. Clone the repository:
    ```bash
    git clone https://github.com/imaakarsh/MainPF.git
    ```
-
-2. Open `index.html` in your browser:
+2. Open in browser:
    ```bash
+   # Navigate to the project directory
    cd MainPF
-   open index.html
+   # Open index.html in your preferred browser
+   open index.html  # macOS
+   start index.html  # Windows
    ```
 
 ## 📝 License
@@ -79,11 +62,9 @@ This project is open source and available for personal use.
 
 ## 👨‍💻 Author
 
-**Aakarsh**
-- Full Stack Developer
-- Building modern web experiences
+**Aakarsh**  
+Full Stack Developer specializing in modern web experiences
 
 ---
 
-
-⭐ Star this repository if you like it!
+⭐ Star this repository if you find it useful!
